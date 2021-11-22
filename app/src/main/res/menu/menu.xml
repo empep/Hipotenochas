@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/instrucciones"
+        app:showAsAction="ifRoom"
+        android:id="instrucciones"/>
+    <item android:title="@string/empezar"
+        app:showAsAction="ifRoom"
+        android:id="empezar"/>
+    <item android:title="@string/configurar_juego"
+    app:showAsAction="ifRoom"
+    android:id="configurar"></item>
+    <item android:title="@string/seleccionar_personaje"
+    app:showAsAction="ifRoom"
+    android:id="empezar"
+        android:icon="@drawable/HipotenochaWebTransparente"/>
+</menu>
